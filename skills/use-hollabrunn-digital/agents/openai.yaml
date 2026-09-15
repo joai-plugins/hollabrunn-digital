@@ -1,0 +1,18 @@
+interface:
+  display_name: "Hollabrunn Digital"
+  short_description: "Connect Hollabrunn.Digital to ChatGPT, Claude, Codex, and Cursor — find local businesses, book appointments, and help partners join the directory."
+  icon_small: "https://hollabrunn.digital/icon.svg"
+  icon_large: "https://hollabrunn.digital/icon.svg"
+  brand_color: "#E85D04"
+  default_prompt: "Welche Betriebe aus Hollabrunn sind auf Hollabrunn.Digital gelistet?"
+
+policy:
+  allow_implicit_invocation: true
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "joai-hollabrunn-digital"
+      description: "Hollabrunn Digital MCP server by JoAi"
+      transport: "streamable_http"
+      url: "https://cortex.joai.ai/mcp/apps/hollabrunn-digital"
