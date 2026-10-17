@@ -1,0 +1,38 @@
+{
+  "name": "joai-hollabrunn-digital",
+  "version": "0.3.0",
+  "description": "Connect Hollabrunn.Digital to ChatGPT, Claude, Codex, and Cursor — find local businesses, book appointments, and help partners join the directory.",
+  "author": {
+    "name": "JoAi",
+    "email": "micha@vleap.at",
+    "url": "https://joai.ai"
+  },
+  "homepage": "https://joai.ai/en/apps/hollabrunn-digital",
+  "repository": "https://github.com/JoAiHQ/plugins",
+  "license": "MIT",
+  "keywords": [
+    "joai",
+    "mcp",
+    "hollabrunn-digital"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Hollabrunn Digital by JoAi",
+    "shortDescription": "Connect Hollabrunn.Digital to ChatGPT, Claude, Codex, and Cursor — find local businesses, book appointments, and help partners join the directory.",
+    "longDescription": "Hollabrunn's digital storefront — find local businesses, book appointments, discover offers.",
+    "developerName": "JoAi",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://joai.ai/en/apps/hollabrunn-digital",
+    "privacyPolicyURL": "https://legal.vleap.ai/policies/privacy.html",
+    "termsOfServiceURL": "https://legal.vleap.ai/general/legal-notice.html",
+    "defaultPrompt": [
+      "Welche Betriebe aus Hollabrunn sind auf Hollabrunn.Digital gelistet?",
+      "Finde Wellness- oder Coaching-Angebote in Hollabrunn und gib mir den Buchungslink.",
+      "Hilf mir, einen neuen Partner für Hollabrunn.Digital vorzubereiten (Texte + nächste Schritte)."
+    ]
+  }
+}
